@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mario Henrique">
+    <meta name="description" content="Descriçao do meu site">
+    <meta name="password" content="palavras,separadas,por,virgula">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Document</title>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        var header = document.getElementById("#header");
+        var sticky = header.offsetTop;
+        Remove "sticky" when you leave the scroll position
+
+        function myFunction() {
+
+        if (window.pageYOffset > sticky) {
+
+        header.classList.add("sticky");
+
+    } else {
+
+    header.classList.remove("sticky");
+
+  }
+
+}
+    </script>
+</head>
+<body>
+    <header id="header">
+        <div class="container" id="">
+            <div class="logo">
+                <img src="images/Logo.png" alt="Logo">
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="">Início</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Depoimentos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+
+            <nav class="menu-mobile">
+                <ul>
+                    <li><a href="">Início</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Depoimentos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </div><!--container-->
+    </header>
+
+    <main>
+        <section class="section-1">
+            <div class="container">
+                <div class="text-section-1">
+                    <h2>Saúde natural para<br /> os seus cabelos</h2>
+                    <p>Um salão exclusivo em Sao Paulo,<br />
+                    especializado em tratamentos naturais.</p>
+                    <input type="submit" name="açao" value="Agendar  um  horario">
+                </div><!--text-section-1-->
+
+                <div class="img-section-1">
+                    <div class="background"><div class="img"></div><!--img--></div>
+                </div><!--img-section-1-->
+            </div><!--container-->
+            <div class="divider"></div>
+        </section><!--section-1-->
+
+        <section class="section-2">
+            <div class="container">
+                <div class="img-section-2">
+                    <div class="background"></div>
+                    <div class="img"></div>
+                    
+                </div><!--img-section-2-->
+
+                <div class="text-section-2">
+                    <h2>Sobre nós</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus, id accumsan felis tristique. Proin quis bibendum diam. Sed consequat nisl laoreet eros ultricies pellentesque. Nullam in est porta, pellentesque massa vitae, vehicula risus. </p>
+                    <p>In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut pretium urna turpis eu dui. Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus elementum suscipit, tortor augue vulputate sapien, vitae feugiat enim augue sed. </p>
+                    <p>Quisque id aliquam elit. Suspendisse congue pharetra maximus. Duis rutrum velit a leo euismod dictum. Sed sodales est efficitur arcu tincidunt tincidunt. Curabitur fringilla, risus at feugiat feugiat, nisl nulla tincidunt tellus, elementum elementum lorem nisl eleifend dolor. Nullam eget dui at sem ullamcorper luctus.</p>
+                </div><!--text-section-2-->
+            </div><!--container-->
+            <div class="divider"></div>
+        </section><!--section-2-->
+
+        <section class="section-3">
+            <div class="container">
+                <h2>Serviços</h2>
+                <p>Com mais de 10 anos no mercado, o <b>Beautysalon</b> já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais</p>
+
+                <div class="services-box">
+                    <div class="box">
+                        <div class="box-img img-1"></div><!--box-img-->
+                        <div class="text-box">
+                            <h2>Terapia capilar</h2>
+                            <p>Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive os longos e finos.</p>
+                        </div><!--text-box-->
+                    </div><!--box-->
+
+                    <div class="box">
+                        <div class="box-img img-2"></div><!--box-img-->
+                        <div class="text-box">
+                            <h2>Cortes</h2>
+                            <p>A nossa equipe é repleta de profissionais renomados, famosos por lançarem tendências com cortes diferenciados e clássicos.</p>
+                        </div><!--text-box-->
+                    </div><!--box-->
+
+                    <div class="box">
+                        <div class="box-img img-3"></div><!--box-img-->
+                        <div class="text-box">
+                            <h2>Tratamentos</h2>
+                            <p>O beautysalon conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo de cabelo.</p>
+                        </div><!--text-box-->
+                    </div><!--box-->
+                </div><!--services-box-->
+            </div><!--container-->
+            <div class="divider"></div>
+        </section><!--section-3-->
+
+        <div class="section-4">
+            <div class="container">
+                <h2>Depoimentos de quem ja passou por aqui</h2>
+
+                <div class="depositions">
+                    <div class="box-depositions">
+                        <div class="aspas"></div>
+                        <p>Eu sou cliente do Beautysalon há 5 anos e não troco por nada! Certamente meu cabelo mudou muito depois que comecei a tratar somente com produtos naturais e veganos. São profissionais incríveis e qualificados.   
+                            “</p>
+
+                            <div class="name-depositions">
+                                <div class="img img-1"></div>
+                                <p>Wanessa Souza</p>
+                            </div><!--name-depositions-->
+                    </div><!--box-deposition-->
+
+                    <div class="box-depositions">
+                        <div class="text-depositions">
+                            <div class="aspas"></div>
+                            <p>Minha mãe frequenta o salão há anos e me levou um dia para conhecer. Minha experiência foi incrível, eu continuo fazendo o a terapia capilar e isso salvou o meu cabelo. Adoro todos os profissionais do Beautysalon.
+                                “</p>
+                            </div><!--text-depositions-->
+                            <div class="name-depositions">
+                                <div class="img img-2"></div>
+                                <p>Luna Falcão</p>
+                            </div><!--name-depositions-->
+                    </div><!--box-deposition-->
+                </div><!--depostions-->
+                    <div class="slider">
+                        <div style="background-color: #69B99D;"></div>
+                        <div></div>
+                        <div></div> 
+                    </div><!--slider-->
+            </div><!--container-->
+            <div class="clear"></div>
+            <div class="divider"></div>
+        </div><!--section-4-->
+
+        <div class="section-5">
+            <div class="container">
+                <div class="contato">
+                    <h2>Entre em contato<br /> com a gente!</h2>
+                    <p>Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
+                    <div class="btn">
+                        <div class="img"></div>
+                        <span>Entrar em contato</span>
+                    </div><!--btn-->
+                </div><!--contato-->
+
+                <div class="information-contact">
+                    <div class="icon-wraper">
+                        <div class="icon icon-1"></div><span>11 99845-6754</span>
+                    </div>
+                    <div class="icon-wraper">
+                        <div class="icon icon-2"></div><span>R.Amauri Souza,346</span>
+                    </div>
+                    <div class="icon-wraper">
+                        <div class="icon icon-3"></div><span>contato@beatysalon.com</span>
+                    </div>
+                </div><!--information-contact-->
+            </div><!--container-->
+            <div class="clear"></div>
+        </div><!--section-5-->
+
+        <footer>
+            <div class="container">
+                <div class="footer-informations">
+                    <img src="images/Logo_2.png" alt="logo">
+                    <p>©2021 Beautysalon.</p>
+                    <p>Todos os direitos reservados.</p>
+                </div><!--footer-informations-->
+
+                <div class="footer-icons"> 
+                    <img src="images/instagram 1.png" alt="instagram">
+                    <img src="images/facebook 1.png" alt="instagram">
+                    <img src="images/youtube 1.png" alt="instagram">
+                </div><!--footer-icons-->
+            </div><!--container-->
+            <div class="clear"></div>
+        </footer>
+        
+    </main>
+</body>
+</html>
